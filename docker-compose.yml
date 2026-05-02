@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  bot:
+    build: .
+    restart: always
+    env_file: .env
+    depends_on:
+      - db
+      - evolution
+
+  db:
+    image: postgres:15
+    restart: always
+    environment:
+      # Aqui ele lê o que você escreveu no .env
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME}
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  evolution:
+    image: atendai/evolution-api:latest
+    restart: always
+    environment:
+      # Configurações obrigatórias para a Evolution funcionar
+      - AUTHENTICATION_TYPE=apikey
+      - AUTHENTICATION_API_KEY=${EVOLUTION_API_KEY}
+      - DATABASE_ENABLED=true
+      - DATABASE_CONNECTION_URI=postgresql://${DB_USER}:${DB_PASSWORD}@db:5432/${DB_NAME}?schema=public
+    ports:
+      - "8080:8080"
+    volumes:
+      - evolution_data:/evolution/instances
+    depends_on:
+      - db
+
+volumes:
+  pgdata:
+  evolution_data:

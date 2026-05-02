@@ -1,0 +1,263 @@
+{
+  "cookies": [
+    {
+      "name": "_sapid",
+      "value": "8c49a3221185574b89146f203a7ee36e359de0d632f8dad04f06790b",
+      "domain": "shopee.com.br",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "csrftoken",
+      "value": "z3SeYzQmNU097xVn9URn1zRvcgnjJb7b",
+      "domain": ".shopee.com.br",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ssr-tz",
+      "value": "America/Fortaleza",
+      "domain": "shopee.com.br",
+      "path": "/",
+      "expires": 1812210845.317655,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SPC_T_ID",
+      "value": "VObL30kJ+pgIoRXi8JZREMewqIjtbzjBJooTm7hi/gybEdc8ZsmY2va6FsXDD3Y0gxXwdnm45JdmL6VzPwMyRjMloo1jOKaswE1mXEp8B/dEHGuSq4+ZDu16qNatJK11mmr5M04ep9w//K82o+bFFSJsDG1B2ryHJsLdXrP6+Gs=",
+      "domain": ".shopee.com.br",
+      "path": "/",
+      "expires": 1812210853.986093,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SPC_T_IV",
+      "value": "dVpkWlluWHloazdUTnlPVg==",
+      "domain": ".shopee.com.br",
+      "path": "/",
+      "expires": 1812210853.986185,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SPC_SI",
+      "value": "JRXvaQAAAABmSlZxTE42RL93hwAAAAAAZlFlQ1VQOUg=",
+      "domain": ".shopee.com.br",
+      "path": "/",
+      "expires": 1777737253.985697,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SPC_SEC_SI",
+      "value": "v1-dEUweFN4eTFIWGxlS0lHSN9G8I+2z1v1OGLRirsQVKkJFSM+8g7a7PO4OT1eW8BzfergaHUNK2kfXHSQ3AIKGe/wb2SeYSWktK7gphlRgP0=",
+      "domain": "shopee.com.br",
+      "path": "/",
+      "expires": 1777737546.244286,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SPC_F",
+      "value": "sTiUp4fD8Jg549rOmRTfslCsCRggG0NK",
+      "domain": ".shopee.com.br",
+      "path": "/",
+      "expires": 1812210846.244315,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "REC_T_ID",
+      "value": "fff7fa5b-4575-11f1-9a49-3ef3ae4a2976",
+      "domain": ".shopee.com.br",
+      "path": "/",
+      "expires": 1812210846.24434,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SPC_R_T_ID",
+      "value": "VObL30kJ+pgIoRXi8JZREMewqIjtbzjBJooTm7hi/gybEdc8ZsmY2va6FsXDD3Y0gxXwdnm45JdmL6VzPwMyRjMloo1jOKaswE1mXEp8B/dEHGuSq4+ZDu16qNatJK11mmr5M04ep9w//K82o+bFFSJsDG1B2ryHJsLdXrP6+Gs=",
+      "domain": ".shopee.com.br",
+      "path": "/",
+      "expires": 1812210853.985908,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SPC_R_T_IV",
+      "value": "dVpkWlluWHloazdUTnlPVg==",
+      "domain": ".shopee.com.br",
+      "path": "/",
+      "expires": 1812210853.986004,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_QPWSDCXHZQA",
+      "value": "683b3d67-e992-47aa-9953-d3d693a8c819",
+      "domain": "shopee.com.br",
+      "path": "/",
+      "expires": 1809186846,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "REC7iLP4Q",
+      "value": "0705942e-38c8-49b8-9389-0e32a70f2d0c",
+      "domain": "shopee.com.br",
+      "path": "/",
+      "expires": 1809186846,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "language",
+      "value": "pt-BR",
+      "domain": ".shopee.com.br",
+      "path": "/",
+      "expires": 1812210847.898014,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SPC_CLIENTID",
+      "value": "c1RpVXA0ZkQ4Smc1yghybnkcnbdhtdel",
+      "domain": ".shopee.com.br",
+      "path": "/",
+      "expires": 1812210853.986271,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SPC_EC",
+      "value": "clRrcm9WcW1HRDhjOTFhR1fudjm6syjTr5IE7GAMn+2oHhLCfMyt2q9r3um7ooKIybI6NvCFBzRdWB+u6ct6R8gu+aP48r7714LT9fB5vZL6Q2COL20xy5dtQxCX/ppZ9zAmyU+4TFfAvhzl2Ka4/+36Ko+tW6BhL/hLIsHg35K0ENyd4S61G3bc9U7+tlYvQDgOcLdZxoguzWH0RC7nJQ==.AEeQkm20SWWG2T6Vzvrvqs7DLksTKNZsRYWlOuCbaLbd",
+      "domain": ".shopee.com.br",
+      "path": "/",
+      "expires": 1812210853.98632,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SPC_ST",
+      "value": "cDVqcFRVVWVEWTBGUzEyYzjzggGCfMDwazT6o64zsSMWMdoOHfSzd6h5nolM6s/7j2MO2gSis2Bo/Mg5bwe12bQpYDg/2+QuyygQ5ueJg/nqivqKSUyRpQ0MxspXrjMUn4jUxwPvosnIb5E3DhUBEj3UaElJFDSqkZChai4cnfIstSSyw7n2QmhYpVsnKGXllvndstgckw0JPEZIRV71NQ==.AHEI1Oc3XsUX3N7i8otkoJMIYrbxCNSZ3ZRqy4b7U2CI",
+      "domain": ".shopee.com.br",
+      "path": "/",
+      "expires": 1812210853.986373,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SPC_U",
+      "value": "620068667",
+      "domain": ".shopee.com.br",
+      "path": "/",
+      "expires": 1812210853.986421,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "shopee_webUnique_ccd",
+      "value": "RMdYmbYrjrgH2yE49IDa5w%3D%3D%7COS1chjCdBBmfefhNd4gay%2F0gkxWijBYvidvCgEADqR7TX3BTOiKdOaAM%2FuVdcTQ46EgNUcV1ntd6PtU%3D%7C3su5Ef6kXregJXyL%7C08%7C3",
+      "domain": "shopee.com.br",
+      "path": "/",
+      "expires": 1809186854,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ds",
+      "value": "ae819cfef6da964ee544cf82df002942",
+      "domain": "shopee.com.br",
+      "path": "/",
+      "expires": 1809186854,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://shopee.com.br",
+      "localStorage": [
+        {
+          "name": "persist:notificationSummary",
+          "value": "{\"lastViewedId\":\"{\\\"activity\\\":null,\\\"action\\\":null}\",\"unviewed\":\"{\\\"activity\\\":[],\\\"action\\\":[]}\",\"notifications\":\"{\\\"activity\\\":[],\\\"action\\\":[]}\",\"progress\":\"0\",\"error\":\"null\",\"_persist\":\"{\\\"version\\\":-1,\\\"rehydrated\\\":true}\"}"
+        },
+        {
+          "name": "__abtest__",
+          "value": "{\"0037f4ca43e41a34b166c4e6d4079fcd\":{\"config\":{\"country\":\"BR\",\"bizName\":\"marketplace\",\"isWsa\":true,\"filters\":[{\"name\":\"platform\",\"value_type\":\"INT\",\"value\":\"16\"}],\"sceneKeys\":[\"User_Identity\"]},\"expireTime\":1777651146838},\"6a5e0866cb2964efb0e005e9ca4b085f\":{\"resp\":{\"version\":2321813,\"dimension\":\"deviceFingerprint\",\"dimension_value\":\"sTiUp4fD8Jg549rOmRTfslCsCRggG0NK\",\"feature_map\":[],\"experiments\":[{\"exp_name\":\"delink_allow_users_to_login_web\",\"group_name\":\"delink_experiment_web\",\"parameter\":\"experiment\",\"group_id\":354299,\"hot_update\":null},{\"exp_name\":\"Live_Testing_Web\",\"group_name\":\"Experiment\",\"parameter\":\"live_testing_web_exp\",\"group_id\":79423,\"hot_update\":null},{\"exp_name\":\"Store_3P_BR_V1\",\"group_name\":\"STORE_3P_BR_EXP_1\",\"parameter\":\"STORE_3P_BR_EXP_1\",\"group_id\":470573,\"hot_update\":null},{\"exp_name\":\"seller_standalone_login_page_reduce_loading_time\",\"group_name\":\"standalone_seller_page_experiment_group\",\"parameter\":\"experiment_new_page\",\"group_id\":363646,\"hot_update\":null},{\"exp_name\":\"expand_no_cost_auth_to_rw\",\"group_name\":\"control2\",\"parameter\":\"control2\",\"group_id\":564291,\"hot_update\":null},{\"exp_name\":\"remove_phone_login\",\"group_name\":\"Control\",\"parameter\":\"remove_phone_login_control\",\"group_id\":443071,\"hot_update\":null}],\"point_infos\":[{\"point_id\":\"view.0.edit_new_phone_number..\",\"group_ids\":[354299]},{\"point_id\":\"impression.0.edit_new_phone_number.cmn_failure_error_popup.\",\"group_ids\":[354299]},{\"point_id\":\"click.0.change_phone_number_reclaim..secondary_button\",\"group_ids\":[354299]},{\"point_id\":\"click.0.change_phone_number_reclaim.cmn_failure_error_popup.secondary_button\",\"group_ids\":[354299]},{\"point_id\":\"click.0.login_with_password..login_with_fb\",\"group_ids\":[470573,363646]},{\"point_id\":\"click.0.login_with_sms..main_sub_account_login\",\"group_ids\":[470573,363646]},{\"point_id\":\"click.0.login_with_password..forgot_password\",\"group_ids\":[470573,363646]},{\"point_id\":\"click.0.sign_up..sign_up_with_apple\",\"group_ids\":[470573,363646]},{\"point_id\":\"action_update_phone_successfully.0.edit_new_phone_number..\",\"group_ids\":[354299]},{\"point_id\":\"action_update_phone_unsuccessfully.0.edit_new_phone_number..\",\"group_ids\":[354299]},{\"point_id\":\"action_login_success.0.login..\",\"group_ids\":[354299,470573,363646,443071]},{\"point_id\":\"impression.0.change_phone_number_reclaim.cmn_failure_error_popup.\",\"group_ids\":[354299]},{\"point_id\":\"click.0.login_with_password..login_with_google\",\"group_ids\":[470573,363646]},{\"point_id\":\"click.0.login_with_password.unregistered_gmail_popup.signup_button\",\"group_ids\":[470573,363646]},{\"point_id\":\"click.0.login_with_sms..sign_up\",\"group_ids\":[470573,363646]},{\"point_id\":\"click.0.edit_new_phone_number.cmn_failure_error_popup.primary_button\",\"group_ids\":[354299]},{\"point_id\":\"click.0.login_with_password..login_with_sms\",\"group_ids\":[470573,363646]},{\"point_id\":\"impression.0.login_with_password..subaccount_login_entrance\",\"group_ids\":[470573,363646]},{\"point_id\":\"view.0.identity_verification_method_selection..\",\"group_ids\":[354299]},{\"point_id\":\"action_sign_up_success.0.login_with_password..\",\"group_ids\":[470573]},{\"point_id\":\"click.0.login_with_password..login_with_apple\",\"group_ids\":[470573,363646]},{\"point_id\":\"click.0.login_with_password..qr_login\",\"group_ids\":[470573,363646]},{\"point_id\":\"view.0.sign_up..\",\"group_ids\":[79423,470573,363646]},{\"point_id\":\"action_sign_up_fail.0.sign_up..\",\"group_ids\":[470573]},{\"point_id\":\"click.0.login_with_sms..login_with_apple\",\"group_ids\":[470573,363646]},{\"point_id\":\"click.0.qr_login..sign_up\",\"group_ids\":[470573,363646]},{\"point_id\":\"click.0.login_with_sms..login_with_fb\",\"group_ids\":[470573,363646]},{\"point_id\":\"action_sign_up_success.0.sign_up..\",\"group_ids\":[79423,470573,363646]},{\"point_id\":\"click.0.login_with_sms..login_with_password\",\"group_ids\":[470573,363646]},{\"point_id\":\"view.0.edit_profile..\",\"group_ids\":[354299]},{\"point_id\":\"action_reclaim_successful.0.change_phone_number_reclaim..\",\"group_ids\":[354299]},{\"point_id\":\"view.0.login..\",\"group_ids\":[470573,363646]},{\"point_id\":\"view.0.forgot_password..\",\"group_ids\":[443071]},{\"point_id\":\"click.0.edit_new_phone_number.cmn_failure_error_popup.secondary_button\",\"group_ids\":[354299]},{\"point_id\":\"click.0.login_with_sms..login_with_google\",\"group_ids\":[470573,363646]},{\"point_id\":\"click.0.login_with_password..login_with_line\",\"group_ids\":[470573,363646]},{\"point_id\":\"click.0.change_phone_number_reclaim.cmn_failure_error_popup.primary_button\",\"group_ids\":[354299]},{\"point_id\":\"view.0.login_with_sms..\",\"group_ids\":[470573,363646,443071]},{\"point_id\":\"action_sign_up_success.0.login_with_sms..\",\"group_ids\":[470573]},{\"point_id\":\"action_login_success.0.login_with_password..\",\"group_ids\":[470573]},{\"point_id\":\"click.0.login_with_password..sign_up\",\"group_ids\":[470573,363646]},{\"point_id\":\"click.0.change_phone_number_reclaim..reclaim_phone_number\",\"group_ids\":[354299]},{\"point_id\":\"click.0.login_with_sms..login_with_sms\",\"group_ids\":[470573,363646]},{\"point_id\":\"view.0.login_with_password..\",\"group_ids\":[470573,363646,564291,443071]},{\"point_id\":\"click.0.social_media..link\",\"group_ids\":[470573]},{\"point_id\":\"click.0.login_with_sms..next_button\",\"group_ids\":[470573,363646]},{\"point_id\":\"click.0.sign_up..next\",\"group_ids\":[470573,363646]},{\"point_id\":\"click.0.sign_up..sign_up_with_google\",\"group_ids\":[470573,363646]},{\"point_id\":\"click.0.login_with_password..main_sub_account_login\",\"group_ids\":[470573,363646]},{\"point_id\":\"view.0.phone_otp_general..\",\"group_ids\":[354299]},{\"point_id\":\"view.0.account_and_security..\",\"group_ids\":[354299]},{\"point_id\":\"action_login_success.0.login_with_sms..\",\"group_ids\":[470573]},{\"point_id\":\"view.0.social_media..\",\"group_ids\":[470573]},{\"point_id\":\"action_login_fail.0.login..\",\"group_ids\":[470573,363646]},{\"point_id\":\"click.0.login_with_password..login_button\",\"group_ids\":[470573,363646]},{\"point_id\":\"click.0.login_with_password..subaccount_login_entrance\",\"group_ids\":[470573,363646]},{\"point_id\":\"click.0.sign_up..sign_up_with_fb\",\"group_ids\":[470573,363646]},{\"point_id\":\"click.0.change_phone_number_reclaim..primary_button\",\"group_ids\":[354299]},{\"point_id\":\"click.0.qr_login..login_with_password\",\"group_ids\":[470573,363646]},{\"point_id\":\"view.0.qr_login..\",\"group_ids\":[470573,363646]},{\"point_id\":\"view.0.change_phone_number_reclaim..\",\"group_ids\":[354299]},{\"point_id\":\"click.0.edit_new_phone_number..next\",\"group_ids\":[354299]},{\"point_id\":\"click.0.login_with_sms..qr_login\",\"group_ids\":[470573,363646]},{\"point_id\":\"action_connected_third_party_fail.0.third_party_connection..\",\"group_ids\":[470573]},{\"point_id\":\"action_connected_third_party_success.0.third_party_connection..\",\"group_ids\":[470573]},{\"point_id\":\"click.0.login_with_password..login_with_whatsapp\",\"group_ids\":[470573,363646]},{\"point_id\":\"click.0.sign_up..login\",\"group_ids\":[470573,363646]}]},\"config\":{\"country\":\"BR\",\"bizName\":\"marketplace\",\"isWsa\":true,\"filters\":[{\"name\":\"platform\",\"value_type\":\"INT\",\"value\":\"16\"}],\"sceneKeys\":[\"User_Account\"]},\"expireTime\":1777651147742}}"
+        },
+        {
+          "name": "SHOPEE_CCMS_MODULES",
+          "value": "{\"313\":{\"moduleId\":313,\"version\":6,\"data\":{\"3628\":{\"module_id\":313,\"id\":\"3628\",\"type\":\"boolean\",\"value\":false,\"version\":1},\"3989\":{\"module_id\":313,\"id\":\"3989\",\"type\":\"json\",\"value\":{\"use_experiment\":true,\"default\":{\"parameter\":\"control1\"}},\"version\":1},\"3990\":{\"module_id\":313,\"id\":\"3990\",\"type\":\"json\",\"value\":{\"use_experiment\":true,\"default\":{\"parameter\":\"control1\"}},\"version\":1},\"4020\":{\"module_id\":313,\"id\":\"4020\",\"type\":\"json\",\"value\":{\"defaultChecked\":true},\"version\":0},\"4206\":{\"module_id\":313,\"id\":\"4206\",\"type\":\"json\",\"value\":{\"supportedRegions\":{\"default\":[\"ID\",\"BR\"],\"treatment_1\":[\"ID\",\"BR\",\"PH\",\"MY\",\"SG\"]}},\"version\":0},\"4207\":{\"module_id\":313,\"id\":\"4207\",\"type\":\"json\",\"value\":{\"use_experiment\":true,\"default\":{\"parameter\":\"control1\"}},\"version\":0},\"4208\":{\"module_id\":313,\"id\":\"4208\",\"type\":\"json\",\"value\":{\"use_experiment\":true,\"default\":{\"parameter\":\"control1\"}},\"version\":0}}}}"
+        },
+        {
+          "name": "@shopee/authentication-background",
+          "value": "{\"image\":\"sg-11134004-81zu8-mn6599ntwnig7c\",\"color\":\"#EE4D2D\"}"
+        },
+        {
+          "name": "shopee_webUnique_ccd",
+          "value": "\"RMdYmbYrjrgH2yE49IDa5w==|OS1chjCdBBmfefhNd4gay/0gkxWijBYvidvCgEADqR7TX3BTOiKdOaAM/uVdcTQ46EgNUcV1ntd6PtU=|3su5Ef6kXregJXyL|08|3\""
+        },
+        {
+          "name": "persist:notificationCommon",
+          "value": "{\"activity\":\"{\\\"0\\\":{\\\"read\\\":[],\\\"lastReceivedId\\\":null},\\\"1\\\":{\\\"read\\\":[],\\\"lastReceivedId\\\":null},\\\"2\\\":{\\\"read\\\":[],\\\"lastReceivedId\\\":null},\\\"3\\\":{\\\"read\\\":[],\\\"lastReceivedId\\\":null},\\\"4\\\":{\\\"read\\\":[],\\\"lastReceivedId\\\":null},\\\"5\\\":{\\\"read\\\":[],\\\"lastReceivedId\\\":null},\\\"6\\\":{\\\"read\\\":[],\\\"lastReceivedId\\\":null},\\\"7\\\":{\\\"read\\\":[],\\\"lastReceivedId\\\":null},\\\"8\\\":{\\\"read\\\":[],\\\"lastReceivedId\\\":null},\\\"9\\\":{\\\"read\\\":[],\\\"lastReceivedId\\\":null}}\",\"action\":\"{\\\"1\\\":{\\\"read\\\":[],\\\"lastReceivedId\\\":null},\\\"3\\\":{\\\"read\\\":[],\\\"lastReceivedId\\\":null},\\\"4\\\":{\\\"read\\\":[],\\\"lastReceivedId\\\":null},\\\"6\\\":{\\\"read\\\":[],\\\"lastReceivedId\\\":null},\\\"7\\\":{\\\"read\\\":[],\\\"lastReceivedId\\\":null},\\\"8\\\":{\\\"read\\\":[],\\\"lastReceivedId\\\":null},\\\"13\\\":{\\\"read\\\":[],\\\"lastReceivedId\\\":null},\\\"25\\\":{\\\"read\\\":[],\\\"lastReceivedId\\\":null}}\",\"isUserFollowedShopStatusRecord\":\"{}\",\"_persist\":\"{\\\"version\\\":-1,\\\"rehydrated\\\":true}\"}"
+        },
+        {
+          "name": "_sapid",
+          "value": "8c49a3221185574b89146f203a7ee36e359de0d632f8dad04f06790b"
+        },
+        {
+          "name": "de_device_id",
+          "value": "c7641d17-62a2-4eba-94fe-27d1c2306a26"
+        },
+        {
+          "name": "mdap_offlinestore_desktop-user_data_1777650856519",
+          "value": "{\"event_timestamp\":1777650856519,\"app_name\":\"desktop-user\",\"app_version\":\"sw-WEBFE-MKP-2026.04.29.v1-1-emergency\",\"app_build_id\":\"sw-WEBFE-MKP-2026.04.29.v1-1-emergency\",\"sdk_name\":\"mdap_web_sdk\",\"sdk_version\":\"0.4.27\",\"session_id\":\"1ec67c4dedb94e66855f7d865b3653c8\",\"tag\":\"web-performance\",\"os_name\":\"Windows\",\"os_version\":\"10\",\"device_name\":\"\",\"device_id\":\"713945a6433e4b47acbe977737d34ebd\",\"data\":{\"browser\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\",\"browser_name\":\"Chrome\",\"browser_version\":\"147.0.0.0\",\"engine_name\":\"Blink\",\"engine_version\":\"147.0.0.0\",\"screen_dpr\":1,\"screen_height\":720,\"screen_width\":1280,\"orientation\":\"landscape-primary\",\"connection_type\":\"4g\",\"connection_downlink\":10240,\"connection_rtt\":100,\"region\":\"br\",\"environment\":\"live\",\"entries\":[{\"type\":\"customized\",\"customized_point_id\":\"d6d7c2415003c89d373e7d48cd6dda7e\",\"duration\":3100,\"customized_data\":{\"sfu_build\":\"1.12.36\",\"react_version\":\"18\",\"page_name\":\"PageAuthentication\"},\"page_name\":\"login-by-password\",\"page_url\":\"https://shopee.com.br/buyer/login\"},{\"type\":\"customized\",\"customized_point_id\":\"2103d0e0296dfc7a8a056f967eaec9ce\",\"duration\":285,\"customized_data\":{\"sfu_build\":\"1.12.36\",\"react_version\":\"18\",\"page_name\":\"PageAuthentication\",\"need_captcha\":\"false\"},\"page_name\":\"login-by-password\",\"status\":\"success\",\"page_url\":\"https://shopee.com.br/buyer/login\"}]}}"
+        },
+        {
+          "name": "REC7iLP4Q",
+          "value": "\"0705942e-38c8-49b8-9389-0e32a70f2d0c\""
+        },
+        {
+          "name": "_apms_sdk_fingerprint",
+          "value": "713945a6433e4b47acbe977737d34ebd"
+        },
+        {
+          "name": "__WIR_SZ_UNIQ_DC",
+          "value": "\"683b3d67-e992-47aa-9953-d3d693a8c819\""
+        },
+        {
+          "name": "persist:topProducts",
+          "value": "{\"_persist\":\"{\\\"version\\\":-1,\\\"rehydrated\\\":true}\"}"
+        }
+      ]
+    }
+  ]
+}
