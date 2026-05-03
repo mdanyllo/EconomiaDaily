@@ -3,30 +3,44 @@ import { PlaywrightCrawler } from 'crawlee';
 export const scanML = async () => {
     let offers: any[] = [];
     const crawler = new PlaywrightCrawler({
-        // LIMITES DE MEMÓRIA:
-        maxConcurrency: 1, // Apenas uma aba por vez
+        maxConcurrency: 1,
         launchContext: {
             launchOptions: {
                 headless: true,
-                // Argumentos para economizar RAM
-                args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'], 
+                args: ['--no-sandbox', '--disable-dev-shm-usage'], 
             },
         },
         async requestHandler({ page }) {
-            // Bloqueia imagens e CSS se o seu foco for apenas o texto/preço (ECONOMIZA MUITA RAM)
-            // await page.route('**/*.{png,jpg,jpeg,css}', route => route.abort());
-
             await page.waitForSelector('.poly-card', { timeout: 30000 });
             
             offers = await page.evaluate(() => {
-                const items = Array.from(document.querySelectorAll('.poly-card')).slice(0, 5);
-                return items.map(item => ({
-                    externalId: item.querySelector('a')?.getAttribute('href')?.split('MLB-')[1]?.split('-')[0] || Math.random().toString(),
-                    title: item.querySelector('.poly-component__title')?.textContent?.trim(),
-                    price: parseFloat(item.querySelector('.andes-money-amount__fraction')?.textContent?.replace('.', '') || '0'),
-                    image: item.querySelector('img')?.getAttribute('src'),
-                    url: item.querySelector('a')?.getAttribute('href'),
-                }));
+                // Pegamos apenas 3 para o WhatsApp não barrar
+                const items = Array.from(document.querySelectorAll('.poly-card')).slice(0, 3);
+                
+                return items.map(item => {
+                    const linkEl = item.querySelector('a');
+                    const imgEl = item.querySelector('img');
+                    const priceEl = item.querySelector('.andes-money-amount__fraction');
+                    
+                    const originalUrl = linkEl?.getAttribute('href') || '';
+                    
+                    /* 
+                       Lógica de Afiliado ML: 
+                       Para gerar o link curto 'social', precisaria da API. 
+                       Aqui vamos enviar o link com o seu matt_word para rastreio básico.
+                    */
+                    const affiliateUrl = originalUrl.includes('?') 
+                        ? `${originalUrl}&matt_word=economiadaily` 
+                        : `${originalUrl}?matt_word=economiadaily`;
+
+                    return {
+                        externalId: originalUrl.split('MLB-')[1]?.split('-')[0] || Math.random().toString(),
+                        title: item.querySelector('.poly-component__title')?.textContent?.trim(),
+                        price: parseFloat(priceEl?.textContent?.replace('.', '') || '0'),
+                        image: imgEl?.src || imgEl?.getAttribute('data-src') || '', // ML usa lazy load
+                        url: affiliateUrl,
+                    };
+                });
             });
         },
     });
