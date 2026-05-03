@@ -4,30 +4,31 @@ export const scanAmazon = async () => {
     let offers: any[] = [];
     
     const crawler = new PlaywrightCrawler({
+        maxConcurrency: 1, // Crucial para não estourar os 1GB de RAM
         launchContext: {
             launchOptions: {
-                // Mude para false para ver o navegador abrindo e entender o que a Amazon está fazendo
                 headless: true, 
-                args: ['--disable-blink-features=AutomationControlled'],
+                args: [
+                    '--disable-blink-features=AutomationControlled',
+                    '--no-sandbox',
+                    '--disable-dev-shm-usage'
+                ],
             },
         },
-        // Aumentamos o tempo de espera porque a Amazon é pesada
-        requestHandlerTimeoutSecs: 60, 
+        requestHandlerTimeoutSecs: 90, // Aumentado para dar tempo ao servidor lento
         
         async requestHandler({ page, log }) {
-            log.info('Acessando Amazon Brasil...');
+            log.info('Acessando Amazon Brasil (Modo Econômico)...');
             
-            // 1. Tenta esperar um seletor mais genérico de produto
             try {
-                await page.waitForSelector('div[data-asin]', { timeout: 20000 });
+                // Espera o conteúdo principal
+                await page.waitForSelector('div[data-asin]', { timeout: 30000 });
             } catch (e) {
-                log.error('A Amazon bloqueou ou mudou o layout. Tirando print para conferir...');
-                await page.screenshot({ path: 'erro-amazon.png' });
+                log.error('Layout não carregou ou bloqueio detectado.');
                 return;
             }
 
             offers = await page.evaluate(() => {
-                // Pegamos os itens que têm o atributo ASIN (padrão Amazon)
                 const items = Array.from(document.querySelectorAll('div[data-asin]')).slice(0, 5);
                 
                 return items.map(item => {
@@ -43,12 +44,11 @@ export const scanAmazon = async () => {
                         image: imgEl?.getAttribute('src'),
                         url: linkEl ? 'https://www.amazon.com.br' + linkEl.getAttribute('href') : '',
                     };
-                }).filter(i => i.price > 0); // Remove o que não tem preço
+                }).filter(i => i.price > 0);
             });
         },
     });
 
-    // Vamos tentar uma URL de ofertas mais direta
     await crawler.run(['https://www.amazon.com.br/deals']);
     return offers;
 };

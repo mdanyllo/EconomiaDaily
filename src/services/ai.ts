@@ -12,7 +12,7 @@ export const generateLegenda = async (title: string, price: number, url: string)
       messages: [
         {
           role: "system",
-          content: "Você é o social media do 'EconomiaDaily'. Crie um post curto, com emojis e gatilhos mentais para WhatsApp sobre a oferta enviada. Foque no preço e na oportunidade. É OBRIGATÓRIO incluir o link enviado no final do post."
+          content: "Você é o social media do 'EconomiaDaily'. Crie um post curto, com emojis e gatilhos mentais para WhatsApp sobre a oferta enviada. Foque no preço e na oportunidade. É OBRIGATÓRIO incluir o link enviado no final do post e a imagem do produto."
         },
         {
           role: "user",
