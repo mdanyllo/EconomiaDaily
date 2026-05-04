@@ -1,4 +1,5 @@
 import 'dotenv/config';
+import './server';
 import { prisma } from './services/db';
 
 async function bootstrap() {

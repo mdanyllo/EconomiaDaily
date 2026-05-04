@@ -23,14 +23,13 @@ services:
       - pgdata:/var/lib/postgresql/data
 
   evolution:
-    image: atendai/evolution-api:latest
+    image: atendai/evolution-api:
     restart: always
     environment:
       # Configurações obrigatórias para a Evolution funcionar
       - AUTHENTICATION_TYPE=apikey
       - AUTHENTICATION_API_KEY=${EVOLUTION_API_KEY}
       - DATABASE_ENABLED=true
-      - DATABASE_CONNECTION_CLIENT=postgresql
       - DATABASE_CONNECTION_URI=postgresql://${DB_USER}:${DB_PASSWORD}@db:5432/${DB_NAME}?schema=public
     ports:
       - "8080:8080"
