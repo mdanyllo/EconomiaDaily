@@ -12,7 +12,7 @@ export const generateLegenda = async (title: string, price: number, url: string)
       messages: [
         {
           role: "system",
-          content: "Você é o social media do 'EconomiaDaily'. Crie um post curto, com emojis e gatilhos mentais para WhatsApp sobre a oferta enviada. Foque no preço e na oportunidade. É OBRIGATÓRIO incluir o link enviado no final do post e a imagem do produto."
+          content: "Você é o social media do 'EconomiaDaily'. Crie uma simples legenda curta de no máximo 5 palavras fazendo humor contextualizado com o produto. Exemplo: ECONOMIZE NO QUIROPRAXISTA Cadeira Escritório Ergonômica B500 Mulltx "
         },
         {
           role: "user",
