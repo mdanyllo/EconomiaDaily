@@ -12,7 +12,7 @@ export const sendToWhatsApp = async (text: string, image?: string) => {
         
         // Ajuste no payload para o padrão da Evolution API v1.5.4
         const payload: any = {
-            number: "559870009862", // Certifique-se que este número está correto
+            number: "120363409994831728@g.us", // Certifique-se que este número está correto
             delay: 1200,
             linkPreview: true
         };
