@@ -28,9 +28,7 @@ async function hunt() {
 
     for (const offer of allOffers) {
       const exists = await prisma.promotion.findUnique({
-        where: {
-          externalId: offer.externalId,
-        },
+        where: { externalId: offer.externalId },
       });
 
       if (exists) {
@@ -54,14 +52,12 @@ async function hunt() {
           image: offer.image || '',
           url: offer.url,
           affiliateUrl: offer.url,
-          source: offer.url.includes('amazon')
-            ? 'AMAZON'
-            : 'MERCADOLIVRE',
+          source: offer.url.includes('amazon') ? 'AMAZON' : 'MERCADOLIVRE',
           posted: true,
         },
       });
 
-      await sendToWhatsApp(copy, offer.image || undefined);
+      await sendToWhatsApp(copy);
 
       console.log('📤 Enviado.');
 
